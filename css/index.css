@@ -1,0 +1,28 @@
+*{
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s;
+  }
+  
+  /* Efeito ao passar o mouse */
+  .meu-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilo para o título */
+  .titulo {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  /* Estilo para a descrição */
+  .descricao {
+    font-size: 1em;
+    color: #666;
+  }
